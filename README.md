@@ -5,9 +5,7 @@
 
 
 ## 🌐 Descripción
-
  
-=======
 - Es una plataforma web diseñada para facilitar la venta de productos que cuenta con un carrito de ventas de articulos
 
 ## 🚀 Características
