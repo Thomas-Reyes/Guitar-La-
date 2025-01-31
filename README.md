@@ -1,34 +1,29 @@
-# React + Vite
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+ 
+ 
+![image](https://github.com/user-attachments/assets/649f2ff3-ac5e-41c1-ae31-ce30e23b9be0)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-ayudas 
-   /* el useStade se define dentro del componente*/ 
-        //hooks - NO se debe poner despues de un retun ni condicionales 
-        // [HOOKS State] (variable - funcion - valor inicial)
-        // const [auth,setAuth] = useState([]); // se define el estado y la funcion que lo modifica*/
-          // [HOOKS Effect] (variable - funcion - valor inicial) 
-        /*  const [guitars, setGuitars] = useState(false); // se define el estado y la funcion que lo modifica
-          useEffect(() => {
-            if(auth){
-              console.log("autenticado")
-            } 
-            console.log("componente listo")
-          },[guitars]) // se ejecuta despues de que el componente se renderiza
-          
-          setTimeout(() => {
-            setGuitars(true)
-          }, 3000);
-        */
+## 🌐 Descripción
 
  
-      
-          
-//  const [data, setData] = useState([]); // se define el estado y la funcion que lo modifica
-//  useEffect(() => {setData(db)},[]);  se ejecuta despues de que el componente se renderiza maquetacion para API
+=======
+- Es una plataforma web diseñada para facilitar la venta de productos que cuenta con un carrito de ventas de articulos
+
+## 🚀 Características
+
+-  Tarjetas dinamicas 
+-  Sistema de carrito 
+-  Sitio responsivo 
+
+## 🔧 Tecnologías Utilizadas
+
+- **Frontend:** [HTML, CSS, JavaScript, React.js]
+
+
+## 🚀 Vista del sitio [Gitar-La ](https://guitarla-carritocompras.netlify.app) <br>  
  
+![image](https://github.com/user-attachments/assets/550c4b64-8b0b-4d42-ad7c-98b38c90a47a)
+ 
+ <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+>>>>>>> 4af100ccd1b6b2626d56657b349677b81b6c1923
