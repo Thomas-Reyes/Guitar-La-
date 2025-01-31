@@ -1,16 +1,11 @@
 // Este componente es el encargado de mostrar el carrito de compras, 
 // el cual se despliega al hacer click en el icono de carrito que 
-// se encuentra en la barra de navegación.
- 
- import {useMemo} from 'react'
- 
-    export default function Header({cart, removeFromCart,increaseQuantity,decreaseQuantity,cleartCart}) { 
-  
-    //state derivado
-    const isEmpty = useMemo( () =>  cart.length === 0, [cart] )  
+// se encuentra en la barra de navegación. 
 
-    const cartTotal = useMemo( () => cart.reduce ( (total, item  ) => total + (item.quantity * item.price)  , 0), [cart] )
-
+    export default function Header({
+        cart, removeFromCart,increaseQuantity,
+        decreaseQuantity,cleartCart,isEmpty,cartTotal}) { 
+   
     return (
         <header className="py-5 header">
         <div className="container-xl">
